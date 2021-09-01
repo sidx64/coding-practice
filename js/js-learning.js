@@ -263,3 +263,21 @@ prm.then((data) => {
 }).catch((err) => {
     console.log(err);
 });
+
+// ====================================================================
+// CURRYING in JS
+// ====================================================================
+
+function oldMultiply(a, b, c) {
+    return a * b * c;
+}
+
+function newMultiply(a) {
+    return (b) => {
+        return (c) => {
+            return a * b * c;
+        };
+    };
+}
+
+console.log(newMultiply(1)(2)(3));
