@@ -41,6 +41,7 @@ function sortedSquaredArray(array) {
         })
         .sort((a, b) => a - b);
     console.log(result);
+    console.log(result);
     return result.sort();
 }
 
