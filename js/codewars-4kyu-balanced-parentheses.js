@@ -24,9 +24,9 @@ function balancedParens(n) {
     // add closedParentheses only if [closedParentheses < openParentheses]
 
     // n = 3
-    // openP = 1
+    // openP = 0
     // closeP = 0
-    // stack => ['(']
+    // stack => ['']
 
     function backTrack(openP, closeP) {
         if (openP === n && closeP === n) {
