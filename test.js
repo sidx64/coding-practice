@@ -31,18 +31,22 @@ function runLenRes(str) {
     return finalVal;
 }
 
-runLenRes('wwwwaaadexxxxxx');
+// runLenRes('wwwwaaadexxxxxx');
 
-function sortedSquaredArray(array) {
-    // Write your code here.
-    result = array
-        .map((item) => {
-            return item ** 2;
-        })
-        .sort((a, b) => a - b);
-    console.log(result);
-    console.log(result);
-    return result.sort();
-}
+// function sortedSquaredArray(array) {
+//     // Write your code here.
+//     result = array
+//         .map((item) => {
+//             return item ** 2;
+//         })
+//         .sort((a, b) => a - b);
+//     console.log(result);
+//     console.log(result);
+//     return result.sort();
+// }
 
-sortedSquaredArray([1, 2, 3, 5, 6, 8, 9]);
+// sortedSquaredArray([1, 2, 3, 5, 6, 8, 9]);
+
+let bigInt = 10 ** 10000000000;
+
+console.log(bigInt);
