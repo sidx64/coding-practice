@@ -51,3 +51,14 @@ function balancedParens(n) {
 }
 
 balancedParens(3);
+
+// n=3
+
+// openP   closeP      stack
+// 0           0       []
+// 1           0       ['(']
+// 2           0       ['(','(']
+// 3           0       ['(','(','(']
+// 3           1       ['(','(','(',')']
+// 3           3       ['((()))']
+
