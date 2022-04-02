@@ -1,0 +1,14 @@
+hi bhai
+  bol bhai "hello world";
+
+  bhai ye hai a = 10;
+
+  agar bhai (a==2){
+    bol bhai "Thik hai";
+  } 
+
+  jab tak bhai (a<20000 ) {
+    bol bhai " bhai waah";
+    a+=1;
+  }
+bye bhai

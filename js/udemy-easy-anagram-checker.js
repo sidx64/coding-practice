@@ -35,3 +35,12 @@ function validAnagram(word1, word2) {
 validAnagram('aaz', 'zza');
 validAnagram('anagram', 'nagaram');
 validAnagram('rat', 'car');
+
+const checkAnagram = (str1, str2) => {
+  console.log(
+    str1.split('').sort().join('') === str2.split('').sort().join('')
+  );
+};
+
+checkAnagram('anagram', 'nagaram');
+checkAnagram('anaram', 'nagaram');
